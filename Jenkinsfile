@@ -3,6 +3,10 @@ pipeline {
 	environment {
 		NEW_VERSION = '1.3.0'
 	}
+	parameters {
+		string (name: "VERSION", default value: '', description: 'version to deploy')
+		choice (name: 'VERSION', choices: ['1.1.0', '1.2.0', '1.3.0'], description: '')
+	}
     stages {
         stage("build") {
             steps {
