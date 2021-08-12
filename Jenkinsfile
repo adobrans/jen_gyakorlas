@@ -6,6 +6,8 @@ pipeline {
 	parameters {
 		choice (name: 'VERSION', choices: ['1.1.0', '1.2.0', '1.3.0'], description: '')
 	}
+	
+	
     stages {
         stage("build") {
             steps {
@@ -19,7 +21,8 @@ pipeline {
 				}
 			}
             steps {
-                echo 'Testing the app...'
+                echo 'variables does not work in single quotes params.${VERSION}'
+				echo "Testing the app params.${VERSION}"
             }
         }
         stage("deploy") {
