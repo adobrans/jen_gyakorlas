@@ -7,6 +7,11 @@ pipeline {
             }
         }
         stage("test") {
+			when {
+				expression {
+					BRANCH_NAME == 'main' || BRANCH_NAME == 'master'
+				}
+			}
             steps {
                 echo 'Testing the app...'
             }
@@ -17,4 +22,12 @@ pipeline {
             }
         }
     }
+	post {
+		always {
+			echo 'will run everytime...'
+		}
+		failure {
+			echo 'will only run when failed...'
+		}
+	}
 }
