@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="44" it="0" lt="41" ct="29" ts="1628763147664" s="false" lb="main page" rc="403" rm="Forbidden" tn="Users 1-1" dt="text" by="925" sby="119" ng="1" na="1">
+  <java.net.URL>http://localhost:8080/</java.net.URL>
+</httpSample>
+<httpSample t="3" it="0" lt="3" ct="0" ts="1628763147714" s="false" lb="syntax page" rc="403" rm="Forbidden" tn="Users 1-1" dt="text" by="974" sby="142" ng="1" na="1">
+  <java.net.URL>http://localhost:8080/pipeline-syntax/globals#env%20and%20includes</java.net.URL>
+</httpSample>
+<httpSample t="3" it="0" lt="3" ct="0" ts="1628763147718" s="false" lb="env-var page" rc="403" rm="Forbidden" tn="Users 1-1" dt="text" by="957" sby="133" ng="1" na="1">
+  <java.net.URL>http://localhost:8080/env-vars.html/</java.net.URL>
+</httpSample>
+<httpSample t="4" it="0" lt="4" ct="1" ts="1628763147959" s="false" lb="main page" rc="403" rm="Forbidden" tn="Users 1-2" dt="text" by="925" sby="119" ng="1" na="1">
+  <java.net.URL>http://localhost:8080/</java.net.URL>
+</httpSample>
+<httpSample t="3" it="0" lt="3" ct="0" ts="1628763147964" s="false" lb="syntax page" rc="403" rm="Forbidden" tn="Users 1-2" dt="text" by="975" sby="142" ng="1" na="1">
+  <java.net.URL>http://localhost:8080/pipeline-syntax/globals#env%20and%20includes</java.net.URL>
+</httpSample>
+<httpSample t="3" it="0" lt="3" ct="0" ts="1628763147968" s="false" lb="env-var page" rc="403" rm="Forbidden" tn="Users 1-2" dt="text" by="957" sby="133" ng="1" na="1">
+  <java.net.URL>http://localhost:8080/env-vars.html/</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="6" ct="1" ts="1628763148359" s="false" lb="main page" rc="403" rm="Forbidden" tn="Users 1-3" dt="text" by="924" sby="119" ng="1" na="1">
+  <java.net.URL>http://localhost:8080/</java.net.URL>
+</httpSample>
+<httpSample t="4" it="0" lt="3" ct="0" ts="1628763148365" s="false" lb="syntax page" rc="403" rm="Forbidden" tn="Users 1-3" dt="text" by="974" sby="142" ng="1" na="1">
+  <java.net.URL>http://localhost:8080/pipeline-syntax/globals#env%20and%20includes</java.net.URL>
+</httpSample>
+<httpSample t="2" it="0" lt="2" ct="0" ts="1628763148369" s="false" lb="env-var page" rc="403" rm="Forbidden" tn="Users 1-3" dt="text" by="956" sby="133" ng="1" na="1">
+  <java.net.URL>http://localhost:8080/env-vars.html/</java.net.URL>
+</httpSample>
+<httpSample t="13" it="0" lt="13" ct="1" ts="1628763148758" s="false" lb="main page" rc="403" rm="Forbidden" tn="Users 1-4" dt="text" by="924" sby="119" ng="1" na="1">
+  <java.net.URL>http://localhost:8080/</java.net.URL>
+</httpSample>
+<httpSample t="3" it="0" lt="2" ct="0" ts="1628763148772" s="false" lb="syntax page" rc="403" rm="Forbidden" tn="Users 1-4" dt="text" by="974" sby="142" ng="1" na="1">
+  <java.net.URL>http://localhost:8080/pipeline-syntax/globals#env%20and%20includes</java.net.URL>
+</httpSample>
+<httpSample t="3" it="0" lt="3" ct="0" ts="1628763148775" s="false" lb="env-var page" rc="403" rm="Forbidden" tn="Users 1-4" dt="text" by="956" sby="133" ng="1" na="1">
+  <java.net.URL>http://localhost:8080/env-vars.html/</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="6" ct="2" ts="1628763149157" s="false" lb="main page" rc="403" rm="Forbidden" tn="Users 1-5" dt="text" by="924" sby="119" ng="1" na="1">
+  <java.net.URL>http://localhost:8080/</java.net.URL>
+</httpSample>
+<httpSample t="2" it="0" lt="2" ct="0" ts="1628763149164" s="false" lb="syntax page" rc="403" rm="Forbidden" tn="Users 1-5" dt="text" by="974" sby="142" ng="1" na="1">
+  <java.net.URL>http://localhost:8080/pipeline-syntax/globals#env%20and%20includes</java.net.URL>
+</httpSample>
+<httpSample t="2" it="0" lt="2" ct="0" ts="1628763149167" s="false" lb="env-var page" rc="403" rm="Forbidden" tn="Users 1-5" dt="text" by="957" sby="133" ng="1" na="1">
+  <java.net.URL>http://localhost:8080/env-vars.html/</java.net.URL>
+</httpSample>
+
+</testResults>
