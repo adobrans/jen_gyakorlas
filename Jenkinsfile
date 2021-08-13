@@ -17,7 +17,7 @@ pipeline {
         stage("test") {
 			when {
 				expression {
-					BRANCH_NAME == 'm' || BRANCH_NAME == 'master'
+					params.${VERSION} == '1.3.0' || BRANCH_NAME == 'master'
 				}
 			}
             steps {
